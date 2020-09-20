@@ -1,0 +1,54 @@
+1. binary operations : 
+
+A.   odd or even : 
+
+   a & 1 == 1 : odd
+   a & 1 != 1 : even
+
+B. 2 numbers have the same sign or not : 
+
+   x ^ y < 0 : opposite signs
+
+   x ^ y >=0 :  the same sign
+
+C.  get negative of a number :  -x == ~x +1
+
+D. add 1 to an integer : 
+
+   ~~x == x +1
+
+E. Swap 2 numbers without using any 3rd variable
+
+http://www.techiedelight.com/bit-hacks-part-1-basic/#P2
+
+ x=x ^ y
+ y=x ^ y
+ x=x ^ y
+
+F.  kth bit : 1 << (k-1)
+
+https://medium.com/@codingfreak/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
+
+All bit related interview questions : 
+
+https://medium.com/@codingfreak/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
+
+----
+
+https://medium.com/@codingfreak/bit-manipulation-interview-questions-and-practice-problems-27c0e71412e7
+
+---
+
+Devide and Conque : 
+
+java and python merge sort algorithms
+
+
+
+
+
+
+
+
+
+
