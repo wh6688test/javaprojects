@@ -1,0 +1,65 @@
+io.rest-assured
+
+
+testCompile 'io.rest-assured.rest-assured:3.0.2'
+
+rest assured can be used together with JUnit and TestNG
+
+REST Assured with TestNG
+
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+given().
+when()l.
+   get("myapi").
+then().
+   assertThat().
+   body("data.a.b", hasSize(20);
+
+
+---
+
+assertThat().statusCode(200).and().contentType(ContentType.JSON).
+and().header("Content-Length"), equalTo("4567");
+
+
+---
+
+parameterized test : query parameters, path parameters
+
+given().param("text", originalText).
+when().
+      get("url").
+then().
+   assertThat().
+   body(
+
+given().pathParam("test"), season().
+when().
+
+
+@DataProvider(name="myvalue")
+public Object [][] createTestDataRecords() {
+
+    return new Object[][] {
+      new Object[][] {
+          {
+      }
+    }
+}
+
+----
+
+extract() assign to some variable
+
+ : extract().path("xxxx');
+
+
+
+
+
+
+
+
+
